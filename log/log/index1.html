@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th> 
+                <th>Location</th> 
+                <th>Hobby</th> 
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0322-1936</td>
+                <td>Raymond Victor A. Advincula</td>
+                <td>raymondvictoradvincula@gmail.com</td>
+                <td>123-456-7890</td> 
+                <td>New York</td> 
+                <td>Reading</td> 
+                <td>
+                    <button class="btn btn-update">Edit</button>
+                    <button class="btn btn-delete">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>0322-1234</td>
+                <td>test 1</td>
+                <td>test1@gmail.com</td>
+                <td>0912345678</td> 
+                <td>newyork</td> 
+                <td>sleeping</td> 
+                <td>
+                    <button class="btn btn-update">Edit</button>
+                    <button class="btn btn-delete">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>0322-1936</td>
+                <td>Raymond Victor A. Advincula</td>
+                <td>raymondvictoradvincula@gmail.com</td>
+                <td>123-456-7890</td> 
+                <td>New York</td> 
+                <td>Reading</td> 
+                <td>
+                    <button class="btn btn-update">Edit</button>
+                    <button class="btn btn-delete">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>0322-1936</td>
+                <td>Raymond Victor A. Advincula</td>
+                <td>raymondvictoradvincula@gmail.com</td>
+                <td>123-456-7890</td> 
+                <td>New York</td> 
+                <td>Reading</td> 
+                <td>
+                    <button class="btn btn-update">Edit</button>
+                    <button class="btn btn-delete">Delete</button>
+                </td>
+            </tr>
+           
+        </tbody>
+    </table>
+    <button class="btn btn-read">Read</button>
+
+    <form class="crud-form">
+        <h2>Add New User</h2>
+        <div class="form-group">
+            <label for="new-name">Name</label>
+            <input type="text" id="new-name" name="new-name" placeholder="Enter name" required>
+        </div>
+        <div class="form-group">
+            <label for="new-email">Email</label>
+            <input type="email" id="new-email" name="new-email" placeholder="Enter email" required>
+        </div>
+        <button type="submit" class="btn btn-create">Create</button>
+    </form>
+</body>
+</html>
